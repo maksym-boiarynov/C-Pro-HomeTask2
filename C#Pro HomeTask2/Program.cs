@@ -9,7 +9,6 @@
         array[i] = rnd.Next(10);
         key += array[i];
         char s = str[i];
-        //Console.WriteLine(array[i]);
         result += ((char)(s + array[i]));
 
     }
